@@ -10,7 +10,7 @@ public class ChatProtocol {
     private  Socket client;
     private  PrintStream toClient;
     private  BufferedReader fromClient;
-    private  String clientName;
+    private  String clientName ="";
 
     public  static String hello = "Chatserver 3.0 gestartet";
     public  static String whatis = "What is your Name?";
@@ -23,8 +23,6 @@ public class ChatProtocol {
             e.printStackTrace();
             System.exit(1); // wird später noch elimiert
         }
-        toClient.println(hello);
-
     }
     private void init() throws IOException {
         toClient = new PrintStream(client.getOutputStream(), true);
