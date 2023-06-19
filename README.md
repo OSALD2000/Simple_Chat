@@ -7,12 +7,12 @@
 
 <div style="border: 1px black soild;">
 <h1>Vesion 2:</h1>
-<img src="" old="kommt noch">
+<img src="" alt="kommt noch">
 </div>
 
 <div style="border: 1px black soild;">
 <h1>Vesion 3:</h1>
-<img src="" old="kommt noch">
+<img src="" alt="kommt noch">
 </div>
 
 
